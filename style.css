@@ -1,0 +1,22 @@
+h1, p {
+  font-family: Lato;
+}
+body {background-color: rgb(206, 209, 224);
+font-size:x-large;
+}
+.center {
+  
+  margin: auto;
+  width: 10%;
+  /* border: 3px solid rgb(83, 110, 160); */
+  padding: 25px;
+}
+.center-top{
+  margin: auto;
+  width: 14.5%;
+}
+/* .center-bottom{
+  margin: auto;
+  width: 13%;
+  padding: 100px;
+} */
