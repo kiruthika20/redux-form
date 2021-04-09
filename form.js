@@ -131,22 +131,10 @@ var SimpleForm = props => {
   )
 }
 
-// const validate = (values) => {
-//   const errors = {};
-//   if (!values.firstName) {
-//     errors.firstName = 'first name is required';
-//   }
-//   if (!values.lastName) {
-//     errors.lastName = 'Last name is mandatory';
-//   } else if (values.lastName.length < 5) {
-//     errors.lastName = 'Minimum 5 char required';
-//   }
-//   return errors;
-// }
+
 
 SimpleForm =  reduxForm({
-  form: 'simple', // a unique identifier for this form
-  //validate
+  form: 'simple',
 })(SimpleForm);
 
 const selector = formValueSelector('simple');
